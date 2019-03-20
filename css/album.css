@@ -48,6 +48,12 @@ footer p {
   }
 }
 
+@media (max-width: 450px) {
+  .collapse-auto-hide-1 {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 1460px) {
     .fixed-height-intro {
       height: 485px;

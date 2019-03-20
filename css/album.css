@@ -41,7 +41,22 @@ footer p {
     text-align: left;
 }
 
+
+@media (max-width: 992px) {
+  .collapse-auto-hide {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 1460px) {
+    .fixed-height-intro {
+      height: 485px;
+    }
+
+    .game-prev-fixed-height {
+      height:402px;
+    }
+
     .control-prev-outside {
         margin-left: -170px;
     }

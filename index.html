@@ -461,15 +461,26 @@
         crossorigin="anonymous"></script>
 
 <script src="js/three.r92.min.js" type="text/javascript"></script>
-<script src="js/vanta.net.min.js" type="text/javascript"></script>
+<script src="js/vanta.waves.min.js" type="text/javascript"></script>
 
 <script>
 
-    VANTA.NET({
+VANTA.WAVES({
+        el: "#ESportPresenter",
+        color: 0xb7bbbd,
+  shininess: 111.00,
+  waveHeight: 8.00,
+  waveSpeed: 0.50,
+  zoom: 0.76
+    });
+
+/*
+VANTA.NET({
         el: "#ESportPresenter",
         color: 0x506ce5,
         backgroundColor: 0xe9ecef
-    })
+    });
+*/
 
 </script>
 </body>
